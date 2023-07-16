@@ -8,14 +8,47 @@
 	<body>
 		<div id="page">
 			<div id="bg">
-				<img src="./assets/leaf-bg.avif" alt="Image of leaves">
+				<img id="bg-img" src="./assets/leaf-bg.avif" alt="Image of leaves">
 				<div id="logo">
 					<img id="logo-img" src="assets/odin-lined.png" alt="Odin image">
 					<h1 id="logo-text">ODIN</h1>
 				</div>
 				<p id="credit">Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/photos/25xggax4bSA">Unsplash</a></p>
 			</div>
-			<div id="sign-up"></div>
+			<div id="sign-up">
+				<p id="call">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.
+
+					You <em>know</em> you want to.
+				</p>
+				<form>
+					<legend>Let's do this!</legend>
+					<table>
+						<tr>
+							<td><label for="first_name">First Name</label></td>
+							<td><input type="text" id="first_name" name="first_name"></td>
+
+							<td><label for="last_name">Last Name</label></td>
+							<td><input type="text" id="last_name" name="last_name"></td>
+						</tr>	
+						<tr>
+							<td><label for="email">Email</label></td>
+							<td><input type="email" name="email"></td>
+
+							<td><label for="phone">Phone Number</label></td>
+							<td><input type="tel" name="phone"></td>
+						</tr>
+						<tr>
+							<td><label for="pwd">Password</label></td>
+							<td><input type="password" name="pwd"</td>
+
+							<td><label for="conf-pwd">Confirm Password</label></td>
+							<td><input type="password" name="conf-pwd"</td>
+						</tr>
+					</table>
+				</form>
+				<button type="button">Create Account</button>
+				<p>Already have an account? <strong>Log in</strong></p>
+			</div>
 		</div>	
 	</body>
 </html>
