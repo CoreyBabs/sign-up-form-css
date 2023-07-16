@@ -1,0 +1,53 @@
+@font-face {
+	font-family: norse;
+	src: url(./assets/Norse-Bold.otf);
+}
+
+#page {
+	display: flex;
+	justify-content: flex-start;
+}
+
+#bg {
+	position: relative;
+}
+
+#sign-up {
+	background-color: gray;
+}
+
+#logo {
+	position: absolute;
+	top: 150px;
+	left: 175px;
+	background-color: rgba(12, 12, 12, 0.5);
+}
+
+#logo-img {
+	display: inline-block;
+	vertical-align: middle;
+	width: 25%;
+}
+
+#logo-text {
+	display: inline-block;
+	vertical-align: middle;
+	color: white;
+	font-size: 96px;
+	font-family: norse, sans-serif;
+}
+
+#credit {
+	color: white;
+	position: absolute;
+	bottom: 10px;
+	left: 175px;
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
+}
+
+body {
+	margin: 0;
+}
