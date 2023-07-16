@@ -75,6 +75,10 @@
 	flex-direction: column;
 }
 
+.error:invalid {
+	border-color: red;
+}
+
 legend, #create {
 	margin-left: 64px;
 }
@@ -95,6 +99,13 @@ form {
 	align-self: stretch;
 }
 
+input {
+	width: 250px;
+	height: 25px;
+	border-radius: 4px;
+	border: 1px solid #E5E7EB;
+	font-size: 16px;
+}
 
 strong {
 	color: #596D48;
